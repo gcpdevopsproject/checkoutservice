@@ -64,7 +64,7 @@ spec:
         container('kubectl') {
           
           sh "gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project ordinal-torch-377801"
-          sh "kubectl apply -f checkoutservice.yam"
+          sh "kubectl apply -f checkoutservice.yaml"
         }
       }
     }
